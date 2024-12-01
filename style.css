@@ -187,7 +187,7 @@ section {
 
 .tentang .kolom {
     margin-top: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .tentang .kolom h2 {
@@ -195,8 +195,8 @@ section {
     font-weight: 700;
 }
 
-.kolom {
-    
+.kolom .deskripsi-tentang {
+    margin-bottom: 30px;
     color: var(--text-color);
 }
 
@@ -206,6 +206,83 @@ section {
     text-shadow: 0px 0px 30px var(--text-color);
     color: var(--secondary-text);
 }
+
+
+/* button medsos */
+.wrapper-button .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-decoration: none;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-button .button:hover {
+    width: 200px;
+}
+
+.wrapper-button .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    color: #000;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-button .button:nth-child(1):hover .icon {
+    background: #4267B2;
+}
+
+.wrapper-button .button:nth-child(2):hover .icon {
+    background: #292b2c;
+}
+
+.wrapper-button .button:nth-child(3):hover .icon {
+    background: #6de63d;
+}
+
+.wrapper-button .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-button .button:hover .icon i {
+    color: #fff;
+}
+
+.wrapper-button .button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-button .button:nth-child(1) span {
+    color: #1DA1F2;
+}
+
+.wrapper-button .button:nth-child(2) span {
+    color: #292b2c;
+}
+
+.wrapper-button .button:nth-child(3) span {
+    color: #6de63d;
+}
+/*  */
+
+
 
 .box {
     margin-top: 200px;
@@ -345,6 +422,8 @@ section {
     background-color: var(--base-variant);
     padding: 50px;
     text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px var(--shadow-color);
 }
 
 .kontak {
@@ -404,6 +483,21 @@ input, textarea {
     margin-bottom: 10px;
     color: var(--text-color);
     text-shadow: 0px 0px 20px var(--shadow-color);
+}
+
+.footer {
+    line-height: 80px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    color: var(--base-color);
+    background-color: var(--text-color);
+}
+
+.footer a {
+    color: var(--base-color);
+    text-decoration: none;
 }
 
 #element {
