@@ -147,6 +147,10 @@ section {
     margin-bottom: 50px;
 }
 
+.beranda .kolom p {
+    color: var(--text-color);
+}
+
 .beranda .kolom h2 {
     font-size: 40px;
     font-weight: 700;
